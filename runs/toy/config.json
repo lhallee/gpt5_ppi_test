@@ -1,0 +1,29 @@
+{
+  "train_csv": "data/toy/pairs.csv",
+  "output_dir": "runs/toy",
+  "test_csv": null,
+  "val_size": 0.1,
+  "test_size": 0.1,
+  "random_seed": 42,
+  "max_len": 128,
+  "vocab": "ACDEFGHIKLMNPQRSTVWY",
+  "unknown_token": "X",
+  "pad_token": "_",
+  "embedding_dim": 64,
+  "cnn_channels": 128,
+  "cnn_kernel_sizes": [
+    3,
+    5,
+    7
+  ],
+  "cnn_dropout": 0.1,
+  "projector_hidden": 256,
+  "batch_size": 32,
+  "epochs": 1,
+  "lr": 0.0003,
+  "weight_decay": 0.0,
+  "num_workers": 2,
+  "amp": false,
+  "log_every": 50,
+  "ckpt_every": 1
+}
